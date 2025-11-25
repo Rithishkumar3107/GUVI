@@ -1,0 +1,49 @@
+/* /css/style.css */
+
+/* Center all main containers vertically and horizontally */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Card container for forms */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Error message styling */
+#register-error, #login-error, #profile-error {
+  color: #dc3545; /* Bootstrap danger red */
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Success message styling */
+#profile-success {
+  color: #28a745; /* Bootstrap success green */
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Links appearance */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons full width on smaller screens */
+.btn-block, .w-100 {
+  width: 100%;
+}
+
+/* Add some spacing around form elements */
+.form-group {
+  margin-bottom: 1rem;
+}
